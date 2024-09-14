@@ -1,0 +1,25 @@
+.similar-listings {
+  margin-top: 150px;
+}
+
+.similar-listings-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.similar-listings-title {
+  width: 1070px;
+}
+
+.similar-listings-title h1 {
+  cursor: default;
+  font-size: 50px;
+  color: #000000;
+  font-weight: 700;
+  margin-top: 17px;
+}
+
+.similar-listings-cards {
+  display: flex;
+  margin: 10px 0 100px 380px;
+}

@@ -1,0 +1,12 @@
+.my-swiper-cards {
+  width: 100%;
+}
+
+.my-swiper-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 520px;
+  width: auto !important;
+  margin-left: 40px;
+}

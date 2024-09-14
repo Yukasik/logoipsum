@@ -1,0 +1,50 @@
+.information {
+  height: 674px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information-text {
+  text-align: center;
+}
+
+.information-text h1 {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: default;
+  margin-top: 17px;
+}
+
+.information-text p {
+  font-size: 20px;
+  color: #a29f9a;
+  font-weight: 400;
+  cursor: default;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 458px;
+  height: 168px;
+  text-align: center;
+}
+
+.information-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.information-btn Button {
+  width: 209px;
+  height: 70px;
+  color: #000000;
+  background-color: #ffac12;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.information-btn Button:hover {
+  color: #ffffff;
+}

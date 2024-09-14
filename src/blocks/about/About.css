@@ -1,0 +1,57 @@
+.about {
+  margin: 0;
+  position: relative;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 740px;
+  background-color: #ffffff;
+  z-index: -1;
+}
+
+.about-wrap {
+  display: flex;
+  padding-top: 150px;
+}
+
+.about-right {
+  margin-top: 113px;
+}
+
+.about-right h1 {
+  font-size: 50px;
+  color: #000000;
+  font-weight: 700;
+  cursor: default;
+  margin-top: 17px;
+}
+
+.about-right p {
+  font-size: 20px;
+  color: #666666;
+  font-weight: 400;
+  cursor: default;
+  width: 460px;
+  height: 168px;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.about-right-btn Button {
+  width: 209px;
+  height: 70px;
+  color: #ffffff;
+  background-color: #000000;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.about-right-btn Button:hover {
+  color: #ffac12;
+}

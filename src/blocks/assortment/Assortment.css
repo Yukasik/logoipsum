@@ -1,0 +1,80 @@
+.assortment {
+  display: flex;
+  justify-content: center;
+}
+
+.assortment-title {
+  width: 1070px;
+}
+
+.assortment-title h1 {
+  font-size: 50px;
+  color: #000000;
+  font-weight: 700;
+  cursor: default;
+  margin-top: 17px;
+}
+
+.assortment-cards {
+  width: 1070px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 31px;
+}
+
+.assortment-search {
+  display: flex;
+  width: 1070px;
+  height: 120px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  margin-top: 60px;
+  margin-bottom: 76px;
+}
+
+.assortment-search-looking,
+.assortment-search-location,
+.assortment-search-property-type,
+.assortment-search-price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 267px;
+}
+
+.assortment-search-looking,
+.assortment-search-location,
+.assortment-search-property-type {
+  border-right: 1px solid #e4e4e4;
+}
+
+.assortment-search-form-looking-for select,
+.assortment-search-form-location select,
+.assortment-search-form-property-type select,
+.assortment-search-form-price select {
+  border: none;
+  color: #000000;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 30px;
+  outline: none;
+}
+
+.assortment-search-form-looking-for select {
+  width: 130px;
+}
+
+.assortment-search-form-location select {
+  width: 110px;
+}
+
+.assortment-search-form-property-type select {
+  width: 150px;
+}
+
+.assortment-search-form-price select {
+  width: 80px;
+}

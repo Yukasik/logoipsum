@@ -1,0 +1,61 @@
+.main {
+  background-image: url("../../img/ObjectBackground.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100%;
+  height: 963px;
+}
+
+.main-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.main-info {
+  margin-top: 148px;
+  width: 1069px;
+  cursor: default;
+}
+
+.main-info h1 {
+  color: #ffffff;
+  font-size: 80px;
+  width: 519px;
+  height: 240px;
+  line-height: 80px;
+  margin-bottom: 22px;
+}
+
+.main-info p {
+  color: #ffffff;
+  font-size: 20px;
+  width: 410px;
+  height: 112px;
+  font-weight: 100;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}
+
+.main-panel {
+  display: flex;
+  width: 1069px;
+  height: 100px;
+  background-color: #ffffff;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  cursor: default;
+}
+
+.main-panel p {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 700;
+  margin-left: 40px;
+  margin-right: 15px;
+}
+
+.main-panel-img {
+  width: 24px;
+  height: 11.56px;
+}

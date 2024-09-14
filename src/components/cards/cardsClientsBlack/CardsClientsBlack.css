@@ -1,0 +1,38 @@
+.cards-clients-black {
+  width: 336px;
+  height: 141px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  background-color: #000000;
+  transition: 0.5s;
+}
+
+.cards-clients-black:hover {
+  transform: scale(1.1);
+}
+
+.cards-clients-black-wrap {
+  height: 49px;
+  display: flex;
+  align-items: center;
+}
+
+.cards-clients-black-name {
+  margin-left: 20px;
+}
+
+.cards-clients-black-name h2 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: default;
+}
+
+.cards-clients-black-name p {
+  color: #979797;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: default;
+  margin-top: 4px;
+}
